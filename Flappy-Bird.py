@@ -15,7 +15,7 @@ PIPE_IMG =pygame.transform.scale2x(pygame.image.load(os.path.join("imagens", "pi
 BASE_IMG =pygame.transform.scale2x(pygame.image.load(os.path.join("imagens", "base.png")))
 BG_IMG =pygame.transform.scale2x(pygame.image.load(os.path.join("imagens", "bg.png")))
 
-STAT_FONT = pygame.font.SysFont("comicsans", 50)
+STAT_FONT = pygame.font.SysFont("arial", 25)
 
 class Bird:
     IMGS = BIRD_IMG
